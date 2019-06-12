@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
+import Like from '../CommentSection/Like 2';
 import Comment from './Comment';
 import CommentInput from './CommentInput';
-import Like from './Like';
 
 class CommentContainer extends React.Component {
   constructor(props) {
